@@ -53,6 +53,7 @@ p{
 .main-container, .footer-container, .container {
   width: 90%;
   margin: 0 auto;
+  padding: 1.25rem;
   background-color: #1a1b21;
   
 }
@@ -138,7 +139,6 @@ p{
   }
   .container {
     width: 380px;
-    padding: 1.25rem;
     box-sizing: border-box;
   }
   .profile-image {

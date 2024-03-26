@@ -6,11 +6,11 @@ export default function Main() {
   return (
     <main className="main-container container">
        <div className="contact-links">
-        <a href="mailto:samuel@gmail.com" className="contact-link email-link">
+        <a href="mailto:samuelasoma@gmail.com" className="contact-link email-link">
           <FaEnvelope className="icon" /> {/* Apply the icon class */}
           <span>Email</span> {/* Wrap text in a span for alignment */}
         </a>
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" className="contact-link linkin-link">
+        <a href="https://www.linkedin.com/in/asoma-samuel-321501244/" className="contact-link linkin-link">
           <FaLinkedin className="icon" /> {/* Apply the icon class */}
           <span>LinkedIn</span> {/* Wrap text in a span for alignment */}
         </a>
