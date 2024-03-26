@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/business-profile/static/css/main.c0297a8c.css",
+    "main.js": "/business-profile/static/js/main.667128dd.js",
+    "static/js/453.904816c5.chunk.js": "/business-profile/static/js/453.904816c5.chunk.js",
+    "static/media/samuel.JPG": "/business-profile/static/media/samuel.3aefa17e6a82a0885033.JPG",
+    "index.html": "/business-profile/index.html",
+    "main.c0297a8c.css.map": "/business-profile/static/css/main.c0297a8c.css.map",
+    "main.667128dd.js.map": "/business-profile/static/js/main.667128dd.js.map",
+    "453.904816c5.chunk.js.map": "/business-profile/static/js/453.904816c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0297a8c.css",
+    "static/js/main.667128dd.js"
+  ]
+}
