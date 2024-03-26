@@ -1,13 +1,150 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sanserif;
+  background-color: #161619;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header */
+.header-container {
+  text-align: center;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.header-name, .header-role, .header-website {
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+
+.header-name{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.header-role {
+  color: #d8aa8a;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.header-website{
+  font-size: 0.75rem;
+}
+
+
+h3 {
+  color: #f5f5f5;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+p{
+  color: #acacad;
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.35
+}
+
+/* Main */
+.main-container, .footer-container, .container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #1a1b21;
+  
+}
+
+.icon-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.icon {
+  margin-right: 5px; 
+}
+
+
+.contact-links {
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(40% - 5px), 1fr)); 
+  grid-gap: 5px; 
+}
+
+.contact-link {
+  padding: 0.625em 1.25em;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.email-link {
+  background-color: #ffffff; 
+  color: #1a1b21;
+  transition: background-color 0.3s ease;
+}
+
+.linkin-link {
+  background-color: #5093e2;
+  color: #fff;
+}
+
+/* link hover effects */
+.email-link:hover {
+  background-color: #e0e0e0ac; 
+  color: #17181d;
+}
+
+.linkin-link:hover {
+  background-color: #0056b3; 
+}
+
+
+
+/* Footer */
+.footer-container {
+  background-color: #161619; 
+  text-align: center;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.icon {
+  font-size: 1.5rem; 
+  color: #918e9b; 
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #6d6877; 
+}
+
+
+/* Media query for larger screens */
+@media (min-width: 600px) {
+  body{
+    background-color: #161619;
+  }
+  .container {
+    width: 380px;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+  .profile-image {
+    width: 380px;
+  }
+  .footer-container{
+    background-color: #1a1b21;
+  }
 }
